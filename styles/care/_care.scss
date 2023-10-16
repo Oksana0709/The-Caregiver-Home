@@ -1,0 +1,47 @@
+
+.section__care {
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+    }
+
+.title__care{ 
+    font-weight: 600;
+    font-size:50px; 
+    font-family: $font-family;
+    text-align: center;
+    } 
+.sections__care {
+    @include flex();
+    justify-content: $justify-content;
+    margin-top: 100px;
+}  
+.logo__care {
+    width:60%;
+    height: 32%;
+}
+ .care {
+    padding: 50px 10px 0px 10px;
+    width: 300px;
+    @include cart();
+
+    &:hover{
+    transform: translateY(-10px);
+    @include cart__hover();
+      }
+}
+
+.care__text{
+   margin: 20px 0px 40px 0px;
+   font-weight: 600;
+   font-size: 22px;
+}
+
+.button__care{
+    margin-top: 50px;
+    width: 230px;
+    height: 50px;
+    @include button();
+    &:hover {
+    @include button__hover();
+    } 
+}

@@ -1,0 +1,17 @@
+@import "./variables/variables";
+@import "./mixin/mixin";
+@import "./header/header";
+@import "./home/home";
+@import "./care/care";
+@import "./review/review";
+@import "./connection/connection";
+@import "./faq/faq";
+
+body {
+    margin: 0;
+    box-sizing: border-box; 
+    background-color:$background-color;
+    font-family: 'Poppins', sans-serif; 
+    color: black;   
+}
+

@@ -1,0 +1,50 @@
+
+
+.section__reviews {
+    margin-top: 20px;
+    height: 800px;
+    background: linear-gradient(to top, 
+    $background-color 50%, #C7B9CD 50%);
+}
+
+.reviews {
+    @include flex();
+    justify-content:$justify-content;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.title__reviews {
+    padding-top: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.foto__reviews {
+    width: 50%;
+} 
+
+.review {
+    width: 300px;
+    padding: 40px 20px 10px 20px;
+    background-color: #D4E5F1;
+    @include cart();
+
+    &:hover{
+     transform: scale(1.2);
+     @include cart__hover();
+      }
+}
+
+.signature {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: end; 
+}
+.img__stars{
+    display: flex;
+    justify-content: left; 
+    margin-top: 20px;
+}

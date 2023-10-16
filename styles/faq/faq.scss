@@ -1,0 +1,48 @@
+
+.section__faq {
+    @include flex();
+    justify-content:space-between;
+    margin-top: 30px;
+}
+
+.questions__faq {
+    width: 750px;
+    padding-left: 40px;
+}
+
+.title__faq {
+    font-size: 80px;
+}
+
+.text__1 {
+    margin: 40px 0px 20px 0px;
+    font-size: 28px;
+}
+.text__2 {
+    font-family: 'Poiret One';
+    font-size: 20px;
+    color: black;
+}
+
+.part__faq {
+    width: 550px;
+}
+
+.button__faq {
+    margin: 80px 0px 0px 100px;
+    width: 260px;
+    height: 60px; 
+    @include button();
+    &:hover {
+    @include button__hover();
+    } 
+}
+
+.logo__faq {
+    max-width: 100%;
+    margin: 250px 0px 0px 0px;
+}
+
+
+
+

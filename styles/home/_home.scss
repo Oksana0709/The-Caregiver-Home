@@ -1,0 +1,24 @@
+
+.section__home {
+margin: 20px 0px 40px 100px;
+}
+
+.title__home {
+    margin:0;
+    font-size: 60px;
+    font-family: $font-family;
+}
+
+.button__home {
+    margin-left:60%;
+    width: 260px;
+    height: 60px; 
+    @include button();
+    &:hover {
+    @include button__hover();
+    }
+}
+.text__home {
+    font-weight: 500;
+    font-size:24px;
+}

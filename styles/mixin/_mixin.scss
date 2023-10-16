@@ -1,0 +1,31 @@
+
+@mixin flex(){
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin button() {
+    border-radius: 5px;
+    border-color: transparent; 
+    font-size:24px;
+    color: white;
+    transition: all 0.3s;
+    background-color: #AE8CBE;
+    box-shadow: 10px 5px 5px gray;
+}
+
+@mixin button__hover(){
+    background-color: #b181a1;
+    cursor: pointer;
+}
+
+@mixin cart(){
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px gray;
+    transition: all 0.5s;
+}
+
+@mixin cart__hover(){
+    transition: all 0.9s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
