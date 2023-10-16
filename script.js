@@ -28,24 +28,5 @@ submit.addEventListener('click', () =>{
 
 
         Swal.fire(`${nameUser} , you are registered!`)
- 
-    
-   
-
-    // Swal.fire({
-    //   text: 'you are registered!',
-    //   icon: 'success'
-    // })
        
 })
-
-
-
-// function checkValidity(event) {
-//     const formNode = event.target.form
-//     const isValid = formNode.checkValidity()
-  
-//     formNode.querySelector('submit').disabled = !isValid
-//   }
-  
-//   applicantForm.addEventListener('input', checkValidity)
