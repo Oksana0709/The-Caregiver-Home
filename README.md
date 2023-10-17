@@ -1,4 +1,4 @@
 # The-Caregiver-Home
-HTML, 
-SCSS, 
+HTML/
+SCSS/
 JS
